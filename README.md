@@ -1,0 +1,27 @@
+## Permissions Needed by IAM Policy
+- s3:ListBucket
+- s3 - all of read permissions
+- s3:CreateBucket
+- s3:DeleteBucket
+- s3:DeleteBucketWebsite
+- s3:PutBucketWebsite
+- s3:DeleteBucketPolicy
+- s3:PutBucketPolicy
+- s3:PutBucketPublicAccessBlock
+- route53:GetChange
+- route53:GetHostedZone
+- route53:ListHostedZones
+- route53:ListResourceRecordSets
+- route53:ListTagsForResource
+- route53:ChangeResourceRecordSets
+- lambda:GetFunction
+- lambda:EnableReplication
+- acm:DescribeCertificate
+- acm:ListTagsForCertificate
+- acm:DeleteCertificate
+- cloudfront:GetDistribution
+- cloudfront:ListTagsForResource
+- cloudfront:TagResource
+- cloudfront:CreateDistribution
+- cloudfront:DeleteDistribution
+- cloudfront:UpdateDistribution
